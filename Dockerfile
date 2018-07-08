@@ -1,4 +1,4 @@
-FROM node:8-slim
+FROM node:carbon
 ENV NPM_CONFIG_LOGLEVEL error
 WORKDIR /src
 ADD . /src
