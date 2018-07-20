@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "serverURL": "https://parse-server.stratpoint.io/parse",
+      "appId": "myAppId",
+      "masterKey": "myMasterKey",
+      "appName": "The Brewery Backend Services",
+      "allowInsecureHTTP": 1,
+      "userId": "admin",
+      "userPassword": "p@ssw0rd123",
+      "port": 8080,
+      "production": true
+    }
+  ]
+}
