@@ -101,7 +101,7 @@
     "pretest": "npm run lint",
     "generate": "node scripts/generate.js",
     "prepublish": "webpack --config webpack/publish.config.js --progress",
-    "start": "node ./Parse-Dashboard/index.jsi --config parse-config.json"
+    "start": "node ./Parse-Dashboard/index.js --config parse-config.json"
   },
   "bin": {
     "parse-dashboard": "./bin/parse-dashboard"
