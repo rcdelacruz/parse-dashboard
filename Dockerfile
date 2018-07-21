@@ -8,4 +8,5 @@ RUN cd /src \
  && npm cache clear --force \
  && rm -rf ~/.npm \
  && rm -rf /var/lib/apt/lists/*
-ENTRYPOINT ["npm", "run", "dashboard"]
+#ENTRYPOINT ["npm", "run", "dashboard"]
+ENTRYPOINT ["npm", "start"]
