@@ -93,7 +93,7 @@
   },
   "scripts": {
     "dev": "node ./Parse-Dashboard/index.js & webpack --config webpack/build.config.js --devtool eval-source-map --progress --watch",
-    "dashboard": "nNODE_ENV=production ode ./Parse-Dashboard/index.js & webpack --config webpack/build.config.js --progress --watch",
+    "dashboard": "NODE_ENV=production node ./Parse-Dashboard/index.js & webpack --config webpack/build.config.js --progress --watch",
     "pig": "http-server ./PIG -p 4041 -s & webpack --config webpack/PIG.config.js --progress --watch",
     "build": "NODE_ENV=production webpack --config webpack/production.config.js && webpack --config webpack/PIG.config.js",
     "test": "NODE_PATH=./node_modules jest",
