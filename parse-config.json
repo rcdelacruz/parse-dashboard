@@ -9,7 +9,7 @@
       "userId": "admin",
       "userPassword": "p@ssw0rd123",
       "port": 8080,
-      "supportedPushLocales": ["en"]
+      "supportedPushLocales": ["en"],
       "production": true
     }
   ]
