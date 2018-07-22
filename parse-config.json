@@ -12,5 +12,11 @@
       "supportedPushLocales": ["en"],
       "production": true
     }
+  ],
+  "users": [
+    {
+      "user":"admin",
+      "pass":"p@ssw0rd123"
+    }
   ]
 }
