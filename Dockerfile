@@ -5,6 +5,7 @@ ADD . /src
 RUN cd /src \
  && npm install \
  && npm run build \
+ && npm run prepublish \
  && npm cache clear --force \
  && rm -rf ~/.npm \
  && rm -rf /var/lib/apt/lists/*
