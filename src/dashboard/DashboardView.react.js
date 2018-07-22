@@ -117,7 +117,7 @@ export default class DashboardView extends React.Component {
     let analyticsSidebarSections = [];
 
     //These analytics pages may never make it into parse server
-    /*
+    
     if (...) {
       analyticsSidebarSections.push({
         name: 'Overview',
@@ -130,10 +130,10 @@ export default class DashboardView extends React.Component {
         name: 'Explorer',
         link: '/analytics/explorer'
       });
-    }*/
+    }
 
     //These ones might, but require some endpoints to added to Parse Server
-    /*
+    
     if (features.analytics && features.analytics.retentionAnalysis) {
       analyticsSidebarSections.push({
         name: 'Retention',
@@ -154,12 +154,12 @@ export default class DashboardView extends React.Component {
         link: '/analytics/slow_queries'
       });
     }
-    */
+    
 
     let settingsSections = [];
 
     // Settings - nothing remotely like this in parse-server yet. Maybe it will arrive soon.
-    /*
+    
     if (features.generalSettings) {
       settingsSections.push({
         name: 'General',
@@ -193,7 +193,7 @@ export default class DashboardView extends React.Component {
         name: 'Hosting and Emails',
         link: '/settings/hosting'
       });
-    }*/
+    }
 
     let appSidebarSections = []
 
