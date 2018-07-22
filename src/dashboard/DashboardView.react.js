@@ -231,7 +231,7 @@ export default class DashboardView extends React.Component {
         name: 'App Settings',
         icon: 'gear-solid',
         link: '/settings',
-        //subsections: settingsSections
+        subsections: settingsSections
       });
     }
 
